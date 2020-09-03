@@ -7,7 +7,7 @@
 
 int main(void) {
   
-  char* Tempc = readline("Enter temperature in celsius:");
+  char* Tempc = readline("Enter temperature in celsius: ");
 
 
 double Tempf = atof(Tempc);
