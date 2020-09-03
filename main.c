@@ -10,11 +10,11 @@ int main(void) {
   char* Tempc = readline("Enter temperature in celsius: ");
 
 
-double Tempf = atof(Tempc);
+double Geeg = atof(Tempc);
 
- Tempf = Tempf*9/5+32;
+ Geeg = Geeg*9/5+32;
    
-   printf("%f° in Celsius is equivalent to %f° Fahrenheit.\n ", atof(Tempc),Tempf);
+   printf("%f° in Celsius is equivalent to %f° Fahrenheit.\n ", atof(Tempc),Geeg);
 
 return 0;
 
