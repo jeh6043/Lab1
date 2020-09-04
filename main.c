@@ -7,15 +7,8 @@
 
 int main(void) {
   
-  char* Tempc = readline("Enter temperature in celsius: ");
-
-
-double Geeg = atof(Tempc);
-
- Geeg = Geeg*9/5+32;
-   
-   printf("%f° in Celsius is equivalent to %f° Fahrenheit.\n ", atof(Tempc),Geeg);
-
-return 0;
-
-}
+  char * tempstr = readline("Enter temperature in celsius: ");
+  double temp = atof(tempstr);
+  double fTemp = (temp*9/5) +32;
+  printf("%f° in Celsius is equivalent to %f°Fahrenheit.\n", temp, fTemp);
+} 
